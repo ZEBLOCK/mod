@@ -94,7 +94,7 @@ public class aboutGui extends ArouseScreen{
 	{
 		if (par1GuiButton.id == 0)
         {
-			this.displayGuiScreen(new ArouseMainGui());
+			mc.displayGuiScreen(new ArouseMainGui());
         }
 		else if (par1GuiButton.id == 1)
         {
