@@ -525,7 +525,7 @@ public class Minecraft implements IPlayerUsage
         }
         else
         {
-            this.displayGuiScreen(new ArouseMainGui());
+            this.displayGuiScreen(new GuiMainMenu());
         }
 
         this.loadingScreen = new LoadingScreenRenderer(this);
